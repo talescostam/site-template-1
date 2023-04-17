@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 133, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #principal {
@@ -151,14 +152,14 @@ h5 {
 .leia-mais-case {
     display: flex;
     justify-content: right;
-    padding-right: 5px;
+    padding-right: px;
     text-decoration: underline;
     color: white;
     background-color: orange;
     margin-bottom: 5px;
     margin-block-start: -5px;
-    width: 75px;
-    margin-left: 215px;
+    margin-left: 210px;
+    width: 85px;
 }
 
 footer {
