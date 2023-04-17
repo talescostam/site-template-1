@@ -1,0 +1,172 @@
+body {
+    background-color: rgb(255, 133, 0);
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 921px;
+    height: 273px;
+    gap: 200px;
+    background-image: url(imagens/fundo-header.jpg);
+}
+
+#home-links {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    list-style-type: none;
+    gap: 5px;
+    font-size:medium;
+    color:white;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+
+#home-links li {
+    background-color: rgb(1, 69, 106);
+    padding: 10px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#logo {
+   padding-left: 35px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    width: 771px;
+    height: 253px;
+    background-image: url(imagens/fundo-destaque-banner.jpg);
+    color: white;
+    padding-left: 150px;
+}
+
+#clique-aqui {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+#sobre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 921px;
+    height: 200px;
+    background-color: rgb(1, 69, 106);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#h1-sobre {
+    font-size:larger;
+    color:white;
+    align-self: flex-start;
+    padding-left: 10px;
+    height: 10px;
+}
+
+#foto-01 {
+    border: 2px solid white;
+}
+
+#foto-01-e-texto {
+    display: flex;
+    font-size:medium;
+    color:white;
+    align-self: flex-start;
+    padding-left: 10px;
+    align-items: center;
+}
+
+#leia-mais-01 {
+    list-style-type: none;
+    font-size:large;
+    color:white;
+    padding-right: 10px;
+    padding: 5px;
+    background-color: orange;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    text-decoration: underline;
+}
+
+h5 {
+    padding-left: 10px;
+    margin-top: 12px;
+}
+
+#cases {
+    display: flex;
+    gap: 10px;
+    width: 921px;
+    padding-bottom: 10px;
+}
+
+.case-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+    height: 180px;
+
+}
+
+.h1-case {
+    font-size:larger;
+    color:rgb(1, 69, 106);
+    align-self: flex-start;
+    padding-left: 10px;
+    height: 10px;
+    width: 290px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.foto-e-texto-case {
+    display: flex;
+    color:grey;
+    padding-left: 10px;
+    align-items: center;
+    height: 150px;
+}
+
+.h5-case {
+    margin: 0px;
+    height: 100px;
+}
+
+.leia-mais-case {
+    display: flex;
+    justify-content: right;
+    padding-right: 5px;
+    text-decoration: underline;
+    color: white;
+    background-color: orange;
+    margin-bottom: 5px;
+    margin-block-start: -5px;
+    width: 75px;
+    margin-left: 215px;
+}
+
+footer {
+    width: 921px;
+    height: 100px;
+    background-color: rgb(1, 69, 106);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
